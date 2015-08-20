@@ -23,14 +23,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#" id="homeMain">BBC Sports</a>
+          <a class="navbar-brand" href="#" id="homeMain">Manifoldjs</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#" id="home">Home</a></li>
-            <li><a href="#" id="football">Football</a></li>
-            <li><a href="#">Link</a></li>
+            <li><a href="#" id="generate">Generate</a></li>
+            <li><a href="#" id="github">GitHub Project</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -56,11 +56,14 @@
         var webview = document.getElementById('webview');
         var homeMain = document.getElementById('homeMain');
         var home = document.getElementById('home');
-        var football = document.getElementById('football');
-        
-        homeMain.addEventListener('pointerdown', function(){webview.navigate('http://m.bbc.co.uk/sport.app')});
-         home.addEventListener('pointerdown', function(){webview.navigate('http://m.bbc.co.uk/sport.app')});
-          football.addEventListener('pointerdown', function(){webview.navigate('http://m.bbc.co.uk/sport/football.app')});
+        var generate = document.getElementById('generate');
+        var github = document.getElementById('github');
+        homeMain.addEventListener('pointerdown', function(){webview.navigate('http://manifoldjs.com/')});
+         home.addEventListener('pointerdown', function(){webview.navigate('http://manifoldjs.com/')});
+          generate.addEventListener('pointerdown', function(){webview.navigate('http://manifoldjs.com/generator')});
+          github.addEventListener('pointerdown', function(){webview.navigate('https://github.com/manifoldjs')});
+          
+          
     </script>
     <style>
     body,html,.stage{height:100%}
