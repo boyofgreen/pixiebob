@@ -1,0 +1,43 @@
+{
+    "lang": "en",
+    "name": "Manifoldjs",
+    "short_name": "MJS",
+    "icons": [
+        {
+            "src": "/images/windows-smallsquare-42-42.png",
+            "sizes": "42x42"
+        },
+         {
+            "src": "/images/windows-smallsquare-54-54.png",
+            "sizes": "54x54"
+        },
+     {
+            "src": "/images/windows-squarelogo-150-150.png",
+            "sizes": "150x150"
+        },
+       {
+            "src": "/images/windows-squarelogo-300-300.png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "/images/windows-splashscreen-620-300.png",
+            "sizes": "620x300"
+        }
+
+    ],
+    "splash_screens":[
+                {
+            "src": "/images/windows-splashscreen-620-300.png",
+            "sizes": "620x300"
+        }
+    ],
+    "start_url": "default.html",
+    "scope": "/",
+    "mjs_access_whitelist": [
+        { "url": "https://*.azurewebsites.net", "apiAccess":"all" },
+        { "url": "http://*.azurewebsites.net", "apiAccess":"all" }
+    ],
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "theme_color": "white"
+}
