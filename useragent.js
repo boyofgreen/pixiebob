@@ -28,5 +28,4 @@ var webview = document.getElementById('webview');
                             Windows.Web.Http.HttpMethod.get,
                             new Windows.Foundation.Uri('http://m.bbc.com/weather'));
                         httpRequestMessage.headers.userAgent.tryParseAdd("Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A403 Safari/8536.25")
-                        console.log('now launching the request')
                         webview.navigateWithHttpRequestMessage(httpRequestMessage);
