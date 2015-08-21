@@ -58,7 +58,7 @@
         var home = document.getElementById('home');
         var generate = document.getElementById('generate');
         var github = document.getElementById('github');
-        homeMain.addEventListener('pointerdown', function(){webview.navigate('http://m.bbc.com/weather')});
+        homeMain.addEventListener('pointerdown', function(){webview.navigate('http://manifoldjs.com/')});
          home.addEventListener('pointerdown', function(){webview.navigate('http://manifoldjs.com/')});
           generate.addEventListener('pointerdown', function(){webview.navigate('http://manifoldjs.com/generator')});
           github.addEventListener('pointerdown', function(){webview.navigate('https://github.com/manifoldjs')});
@@ -79,5 +79,9 @@
 <script src="cssinject.js"></script>
 <script src="backbutton.js"></script>
 <script src="useragent.js"></script>
+
+<script>
+    document.getElementById('webview').navigate('http://m.bbc.com/weather');
+</script>
 </body>
 </html>
