@@ -2,7 +2,7 @@
 This is a Cloud App Toolkit(CAT) for windows 10 hosted apps.  To impliment follow these steps:
 
 ### Step 1: 
-Update the url in the webview (on default.html) with the url of the targeted web app.
+Update the url in the webview naivgate on the last line of the page (on default.html) with the url of the targeted web app.
 
 ### Step 2:
 choose the "features" you want to include in the app by adding or removing js files at the bottom of the default.html page
