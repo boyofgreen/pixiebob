@@ -22,4 +22,4 @@ var webview = document.getElementById('webview');
                    // }
                 });
 
-webview.navigate('http://www.manifoldjs.com/');
+webview.navigate('http://m.bbc.com/weather');
