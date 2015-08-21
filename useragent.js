@@ -14,7 +14,7 @@ var webview = document.getElementById('webview');
                     if (currentUri != e.uri) {
                         e.preventDefault();
   
-                       if(e.uri) var currentUri = e.uri;
+                       if(e.uri) currentUri = e.uri;
                         var httpRequestMessage = new Windows.Web.Http.HttpRequestMessage(
                             Windows.Web.Http.HttpMethod.get,
                             new Windows.Foundation.Uri(e.uri));
