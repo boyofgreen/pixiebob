@@ -17,7 +17,7 @@ Deploy the content of this repo to any web server.  It can be on the domain, or 
 ### Step 4:
  Use manifoldjs and point to this new site:
  
- ```javascript
+ ```xml
  > manifoldjs http://pixiebob.azurewebsites.net -p windows
  
  ```
