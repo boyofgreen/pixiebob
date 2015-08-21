@@ -13,6 +13,7 @@ var webview = document.getElementById('webview');
                 webview.addEventListener("MSWebViewNavigationStarting", function (e) {
                   //  if (currentUri != e.uri) {
                         e.preventDefault();
+                        
                         e.stopImmediatePropagation();
                         e.stopPropagation();
                         var currentUri = e.uri;
