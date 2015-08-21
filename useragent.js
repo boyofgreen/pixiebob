@@ -13,10 +13,8 @@ var webview = document.getElementById('webview');
                 webview.addEventListener("MSWebViewNavigationStarting", function (e) {
                     if (currentUri != e.uri) {
                         e.preventDefault();
-                        
-                        e.stopImmediatePropagation();
-                        e.stopPropagation();
-                        var currentUri = e.uri;
+  
+                       if(e.uri) var currentUri = e.uri;
                         var httpRequestMessage = new Windows.Web.Http.HttpRequestMessage(
                             Windows.Web.Http.HttpMethod.get,
                             new Windows.Foundation.Uri(e.uri));
