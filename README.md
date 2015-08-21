@@ -15,7 +15,7 @@ Deploy the content of this repo to any web server.  It can be on the domain, or 
  [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)  
  
 ### Step 4:
- Use manifoldjs and point to this new site:
+ Use [manifoldjs](http://www.manifoldjs.com) and point to this new site:
  
  ```html
  > manifoldjs http://pixiebob.azurewebsites.net -p windows
