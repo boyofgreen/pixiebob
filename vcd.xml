@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
-  <CommandSet xml:lang="en-us" Name="FOXNewsCommands">
+  <CommandSet xml:lang="en-us" Name="BBCSportsCommands">
     <AppName>BBC Sports</AppName>
     <Example>BBC Sports open football section</Example>
     <Command Name="open">
