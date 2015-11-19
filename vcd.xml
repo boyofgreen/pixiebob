@@ -9,5 +9,9 @@
       <Feedback>opening jackson to {section} section</Feedback>
       <Navigate />
     </Command>
+    <PhraseList Label="section">
+      <Item>football</Item>
+      <Item>cricket</Item>
+    </PhraseList>
 	  </CommandSet>
 </VoiceCommands>
