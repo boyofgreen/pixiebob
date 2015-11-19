@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
-  <CommandSet xml:lang="en-us" Name="BBCSportsCommands">
-    <AppName>BBC Sports</AppName>
-    <Example>BBC Sports open football section</Example>
+  <CommandSet xml:lang="en-us" Name="JacksonCommands">
+    <AppName>jackson</AppName>
+    <Example>jackson open football section</Example>
     <Command Name="open">
-      <Example>open football section</Example>
+      <Example>jackson section</Example>
       <ListenFor>open {section} [section]</ListenFor>
-      <Feedback>opening BBC Sports to {section} section</Feedback>
+      <Feedback>opening jackson to {section} section</Feedback>
       <Navigate />
     </Command>
 	  </CommandSet>
