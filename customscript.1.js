@@ -1,3 +1,6 @@
+
+
+
 var menu = document.getElementById('mobile-nav');
 var newLink = document.createElement('a');
 newLink.href = '#';
@@ -10,6 +13,7 @@ newLink.addEventListener('click', function(){
 	
 	        var path = window.location.href;
         var secondaryTile, selectionRect, squareLogoUri,
+          //  options = ((Windows.UI.StartScreen.TileOptions && Windows.UI.StartScreen.TileOptions.none) || 0),
             displayName = document.title;
         squareLogoUri = new Windows.Foundation.Uri('ms-appx:///images/logo.scale-100.png'); 
        

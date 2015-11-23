@@ -1,33 +1,33 @@
 {
     "lang": "en",
-    "name": "Manifoldjs",
-    "short_name": "MJS",
+    "name": "The Great Courses",
+    "short_name": "The Great Courses",
     "icons": [
         {
-            "src": "/images/windows-smallsquare-42-42.png",
-            "sizes": "42x42"
+            "src": "/images/smalllogo.png",
+            "sizes": "44x44"
         },
          {
-            "src": "/images/windows-smallsquare-54-54.png",
-            "sizes": "54x54"
+            "src": "/images/storelogo.png",
+            "sizes": "50x50"
         },
      {
-            "src": "/images/windows-squarelogo-150-150.png",
+            "src": "/images/logo.png",
             "sizes": "150x150"
         },
        {
-            "src": "/images/windows-squarelogo-300-300.png",
+            "src": "/images/logoLarge.png",
             "sizes": "300x300"
         },
         {
-            "src": "/images/windows-splashscreen-620-300.png",
+            "src": "/images/splashscreen.png",
             "sizes": "620x300"
         }
 
     ],
     "splash_screens":[
                 {
-            "src": "/images/windows-splashscreen-620-300.png",
+            "src": "/images/splashscreen.png",
             "sizes": "620x300"
         }
     ],
@@ -35,9 +35,13 @@
     "scope": "/",
     "mjs_access_whitelist": [
         { "url": "https://*.azurewebsites.net", "apiAccess":"all" },
-        { "url": "http://*.azurewebsites.net", "apiAccess":"all" }
+        { "url": "http://*.azurewebsites.net", "apiAccess":"all" },
+        { "url": "http://*.www.thegreatcoursesplus.com", "apiAccess":"all" },
+        { "url": "https://*.www.thegreatcoursesplus.com", "apiAccess":"all" }
+        
+        
     ],
     "display": "fullscreen",
     "orientation": "portrait",
-    "theme_color": "white"
+    "theme_color": "#3D4C57"
 }
