@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="JacksonCommands">
+    <AppName>The Great Courses</AppName>
+    <Example>The Great Courses open watchlist section</Example>
+    <Command Name="open">
+      <Example>The Great Courses section</Example>
+      <ListenFor>open {section} [section]</ListenFor>
+      <Feedback>opening The Great Courses to {section} section</Feedback>
+      <Navigate />
+    </Command>
+    <PhraseList Label="section">
+      <Item>watchlist</Item>
+      <Item>categories</Item>
+    </PhraseList>
+	  </CommandSet>
+</VoiceCommands>

@@ -1,6 +1,6 @@
 
-
-.article__media {
+footer.content-container{
 	
-	border: 3px solid green;
+	display:none
 }
+

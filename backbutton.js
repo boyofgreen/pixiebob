@@ -14,6 +14,9 @@ function handleSystemNavigationEvent(args) {
     webview.goBack();
 
 }
+//hardcode
+initURL = 'https://www.thegreatcoursesplus.com/';
+
 
 // Initialize the code on Windows load
 
