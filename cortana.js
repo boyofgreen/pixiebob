@@ -24,7 +24,7 @@ Windows.UI.WebUI.WebUIApplication.addEventListener('activated', function(args) {
           redirect = "https://www.thegreatcoursesplus.com/user/watchlist";
           break;
 		default:
-          redirect = "http://m.bbc.co.uk/sport.app";
+          redirect = "https://www.thegreatcoursesplus.com/sign-in";
       }
       webview.navigate(redirect);
 		
