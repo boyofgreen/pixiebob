@@ -12,6 +12,7 @@ function handleSystemNavigationEvent(args) {
         return;
     }
     args.Handled = true;
+    
     webview.goBack();
     
 
