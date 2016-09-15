@@ -31,9 +31,7 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#" id="home">Home</a></li>
-            <li><a href="#" id="generate">Generate</a></li>
-            <li><a href="#" id="github">GitHub Project</a></li>
+            <li class="active"><a href="#" id="settings">settings</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -57,14 +55,10 @@
 </div>
     <script>
         var webview = document.getElementById('webview');
-        var homeMain = document.getElementById('homeMain');
-        var home = document.getElementById('home');
-        var generate = document.getElementById('generate');
-        var github = document.getElementById('github');
-        homeMain.addEventListener('pointerdown', function(){webview.navigate('http://manifoldjs.com/')});
-         home.addEventListener('pointerdown', function(){webview.navigate('http://manifoldjs.com/')});
-          generate.addEventListener('pointerdown', function(){webview.navigate('http://manifoldjs.com/generator')});
-          github.addEventListener('pointerdown', function(){webview.navigate('https://github.com/manifoldjs')});
+        var home = document.getElementById('settings');
+
+         home.addEventListener('pointerdown', function(){webview.navigate('settings.html)});
+
           
           
     </script>
