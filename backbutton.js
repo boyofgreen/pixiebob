@@ -22,7 +22,7 @@ function handleSystemNavigationEvent(args) {
    //  setNavigationState();
         var systemNavigationManager = Windows.UI.Core.SystemNavigationManager.getForCurrentView();
         systemNavigationManager.addEventListener("backrequested", handleSystemNavigationEvent.bind(this));
-	//	var systemNavigation = Windows.UI.Core.SystemNavigationManager.getForCurrentView();
+		var systemNavigation = Windows.UI.Core.SystemNavigationManager.getForCurrentView();
 
         
      
@@ -40,4 +40,4 @@ function handleSystemNavigationEvent(args) {
     //   });
       
       
-    //   })()
+      })();
