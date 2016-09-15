@@ -11,10 +11,9 @@ function handleSystemNavigationEvent(args) {
     if (webview.canGoBack == false) {
         return;
     }
-    args.prevenDefault();
-    args.Handled = true;
+  
     webview.goBack();
-
+    args.Handled = true;
 }
 
 // Initialize the code on Windows load
