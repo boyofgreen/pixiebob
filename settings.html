@@ -14,8 +14,13 @@
   <h2> settings page</h2>
    
    
-   <a href="#" onclick="function(){window.history.back()}">go back</a> 
+   <a href="#" id="goBack">go back</a> 
     
     
+    <script>
+        document.getElementById('goBack').addEventListiner('click', function(){
+            window.history.back();
+        })
+     </script>
 </body>
 </html>
