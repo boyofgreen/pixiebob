@@ -13,7 +13,7 @@ function handleSystemNavigationEvent(args) {
     }
   
     webview.goBack();
-    args.details[0].handled = true;
+    args.detail[0].handled = true;
 }
 
 // Initialize the code on Windows load
