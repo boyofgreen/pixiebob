@@ -22,22 +22,22 @@ function handleSystemNavigationEvent(args) {
    //  setNavigationState();
         var systemNavigationManager = Windows.UI.Core.SystemNavigationManager.getForCurrentView();
         systemNavigationManager.addEventListener("backrequested", handleSystemNavigationEvent.bind(this));
-		var systemNavigation = Windows.UI.Core.SystemNavigationManager.getForCurrentView();
+	//	var systemNavigation = Windows.UI.Core.SystemNavigationManager.getForCurrentView();
 
         
      
      //set up event to show if you can
      
-      webview.addEventListener('MSWebViewDOMContentLoaded', function(){
+    //   webview.addEventListener('MSWebViewDOMContentLoaded', function(){
         
-    if (webview.canGoBack == true && initURL != webview.src) {
-                systemNavigation.appViewBackButtonVisibility = Windows.UI.Core.AppViewBackButtonVisibility.visible;
+    // if (webview.canGoBack == true && initURL != webview.src) {
+    //             systemNavigation.appViewBackButtonVisibility = Windows.UI.Core.AppViewBackButtonVisibility.visible;
         
-    }
-    else{
-        systemNavigation.appViewBackButtonVisibility = Windows.UI.Core.AppViewBackButtonVisibility.collapsed;
-    }
-      });
+    // }
+    // else{
+    //     systemNavigation.appViewBackButtonVisibility = Windows.UI.Core.AppViewBackButtonVisibility.collapsed;
+    // }
+    //   });
       
       
-      })();
+    //   })();
