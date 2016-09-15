@@ -1,6 +1,5 @@
 
 
-body nav {
-	
-	display: none;
+body, html {
+	background-color: transparent !important
 }
