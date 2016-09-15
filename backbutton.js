@@ -11,6 +11,7 @@ function handleSystemNavigationEvent(args) {
     if (webview.canGoBack == false) {
         return;
     }
+    args.prevenDefault();
     args.Handled = true;
     webview.goBack();
 
