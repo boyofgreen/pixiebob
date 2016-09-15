@@ -31,7 +31,7 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#" id="settings">settings</a></li>
+            <li class=""><a href="#" id="settings">settings</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
@@ -55,9 +55,9 @@
 </div>
     <script>
         var webview = document.getElementById('webview');
-        var home = document.getElementById('settings');
+        var settings = document.getElementById('settings');
 
-         home.addEventListener('pointerdown', function(){webview.navigate('settings.html)});
+         settings.addEventListener('click', function(){webview.navigate('settings.html)});
 
           
           
